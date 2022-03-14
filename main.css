@@ -334,3 +334,50 @@ a {
 .paginator__number:last-child {
     margin: 0;
 }
+
+.about{
+    width: 1139px;
+    height: 552px;
+    margin-top: 124px;
+    display: inline-block;
+}
+
+.about__photo{
+    display: block;
+    width: 490px;
+    height: 505px;
+    background: url("./images/cameraman.png") center center / cover no-repeat;
+}
+
+.about__paper{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    width: 785px;
+    height: 455px;
+    border-radius: 5px;
+}
+
+.about__header{
+    width: 116px;
+    height: 49px;
+    color: #000;
+    margin-bottom: 37px;
+}
+
+.about__fish{
+    width: 502px;
+    height: 135px;
+    color: #000000;
+    margin-bottom: 43;
+}
+
+.btn{
+
+}
+
+.footer{
+    width: 1142px;
+    height: 92.64px;
+    display: inline-block;
+}
+
