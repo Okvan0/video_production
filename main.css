@@ -45,10 +45,27 @@ body {
 a {
     color: inherit;
 }
-
+.wrapper{
+}
 .container {
     width: 1142px;
     margin: auto;
+    position: relative;
+}
+
+.hero-img{
+    width: 1910px;
+    position: absolute;
+    top:0;
+    left: -384px;
+    z-index:-100;
+}
+.bottom-img{
+    width: 1910px;
+    position: absolute;
+    top:1820px;
+    left: -384px;
+    z-index:-100;
 }
 
 .header {
@@ -100,6 +117,10 @@ a {
     color: #FF3D00;
     text-decoration: underline;
     text-align: end;
+}
+
+.page-content {
+    margin-bottom: 53px;
 }
 
 .main-title {
@@ -215,7 +236,7 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    color: #000000;
+    color: #666666;
     width: 306px;
     margin-bottom: 29px;
 }
@@ -335,18 +356,17 @@ a {
     margin: 0;
 }
 
-.about{
+.about {
     width: 1139px;
     height: 552px;
     margin-top: 124px;
     display: block;
     border-color: none;
     position: relative;
-    border: 1px solid red;
 }
 
 
-.about__photo:before{
+.about__photo:before {
     content: "";
     width: 490px;
     height: 505px;
@@ -356,7 +376,7 @@ a {
     left: 0;
 }
 
-.about__paper{
+.about__paper {
     box-sizing: border-box;
     background: #FFFFFF;
     width: 785px;
@@ -369,7 +389,7 @@ a {
     padding-left: 81px;
 }
 
-.about__header{
+.about__header {
     font-style: normal;
     color: #000000;
     font-weight: 800;
@@ -377,18 +397,68 @@ a {
     margin-bottom: 37px;
 }
 
-.about__fish{
+.about__fish {
     color: #000000;
     margin-bottom: 43px;
     width: 502px;
     font-size: 16px;
 }
 
-.footer{
-    display: inline-block;
-    width: 1042px;
-    height: 92.64px;
-    display: inline-block;
-    margin-top: 53px;
+.footer {
+    margin-bottom: 57px;
 }
 
+.footer__logo {
+    display: inline-block;
+    margin-right: 130px;
+}
+
+.footer__navigation {
+    display: inline-block;
+    margin-right: 111px;
+}
+
+.footer__item {
+    display: inline-block;
+    margin-right: 16px;
+    font-size: 14px;
+}
+
+.footer__item a {
+    text-decoration: none;
+}
+
+.social {
+    display: inline-block;
+    font-size: 0;
+    margin-right: 74px;
+}
+
+.social__el {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.footer-contact {
+    display: inline-block;
+    text-align: end
+}
+
+.footer-contact__call {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    margin-bottom: 6px;
+}
+
+.footer-contact__phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.footer-border-line {
+    height: 1px;
+    background-color: #2E3032;
+    margin-bottom: 40px;
+}
