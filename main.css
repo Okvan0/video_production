@@ -40,69 +40,76 @@ body {
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin: 0;
 }
 
 a {
     color: inherit;
 }
-.wrapper{
+
+.wrapper {
+    background-image: url(./images/hero.png), url(./images/bottom-pic.png);
+    background-position: top, bottom;
+    background-repeat: no-repeat;
 }
+
 .container {
     width: 1142px;
     margin: auto;
     position: relative;
 }
 
-.hero-img{
+.hero-img {
     width: 1910px;
     position: absolute;
-    top:0;
+    top: 0;
     left: -384px;
-    z-index:-100;
+    z-index: -100;
 }
-.bottom-img{
+
+.bottom-img {
     width: 1910px;
     position: absolute;
-    top:1820px;
+    top: 1820px;
     left: -384px;
-    z-index:-100;
+    z-index: -100;
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     padding-top: 21px;
-    margin-bottom: 230px;
+    margin-bottom: 160px;
 }
 
-.logo {
-    display: inline-block;
-    margin-right: 241px;
-}
+.logo {}
 
 .navigation {
-    display: inline-block;
-    vertical-align: top;
+    padding-bottom: 10px;
 }
 
-.navigation ul {
+.navigation__list {
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 .navigation__item {
-    display: inline-block;
-    margin-right: 16px;
     font-size: 14px;
+    margin-right: 54px;
 }
 
-.navigation__item a {
+.navigation__link {
     text-decoration: none;
 }
 
-
-.contacts {
-    display: inline-block;
-    margin-left: 248px;
+.navigation__link--active {
+    color: #FF3D00
 }
+
+
+.contacts {}
 
 .contacts__phone {
     font-size: 26px;
@@ -119,20 +126,23 @@ a {
     text-align: end;
 }
 
-.page-content {
-    margin-bottom: 53px;
-}
+.page-content {}
 
 .main-title {
-    width: 780px;
-    margin: auto;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 235px;
 }
 
 .main-title__header {
     font-size: 72px;
     text-align: center;
     font-weight: 800;
+    margin-top: 0;
     margin-bottom: 18px;
+    text-transform: uppercase;
 }
 
 .main-title__subheader {
@@ -140,6 +150,7 @@ a {
     font-weight: 400;
     font-size: 18px;
     text-align: center;
+    margin-top: 0;
     margin-bottom: 44px;
 }
 
@@ -158,6 +169,7 @@ a {
     background-color: #FF3D00;
     border-radius: 35px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .btn-border {
@@ -166,73 +178,70 @@ a {
     border: 2px solid #FF5500;
 }
 
-.ads-block {
+.adv-block {
     margin-bottom: 180px;
-    margin-top: 233px;
 }
 
-.ads-block__list {
-    font-size: 0px;
+.adv-block__list {
+    display: flex;
+    justify-content: space-between;
 }
 
-.ads-block__ads {
-    display: inline-block;
-    margin-right: 24px;
-    vertical-align: top;
+.adv-block__adv {
+    width: calc(100%/3 - (27px*2)/3);
 }
 
-.ads-block__ads:last-child {
+.adv-block__adv:last-child {
     margin-right: 0;
 }
 
-.ads {
-    width: 362px;
-    height: 476px;
+.adv {
     box-sizing: border-box;
     background: #FFFFFF;
     border-radius: 5px;
     padding: 36px 34px 52px 22px;
+
+    display: flex;
+    flex-direction: column;
 }
 
-.ads__header {}
+.adv__header {}
 
-.ads__pic {
+.adv__pic {
     width: 84px;
     height: 80px;
     margin-bottom: 29px;
 }
 
-.ads__header {
+.adv__header {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     color: #000000;
     margin-bottom: 17px;
+    margin-top: 0;
 }
 
-.ads__info {
+.adv__info {
+    display: flex;
+    justify-content: space-between;
     color: #000000;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    width: 306px;
     margin-bottom: 25px;
 }
 
-.ads__team {
-    width: 110px;
-    display: inline-block;
+.adv__team {
     text-align: left;
-    margin-right: 61px;
+    margin-right: 70px;
 }
 
-.ads__terms {
-    width: 130px;
-    display: inline-block;
+.adv__terms {
     text-align: left;
 }
 
-.ads__description {
+.adv__description {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -241,18 +250,23 @@ a {
     margin-bottom: 29px;
 }
 
+.adv__button {
+    margin-top: auto;
+}
+
 .news {
-    width: 1139px;
-    height: 600px;
+    margin-top: 0;
+    margin-bottom: 124px;
 }
 
 .news__list {
-    font-size: 0px;
+    display: flex;
     margin-bottom: 53px;
 }
 
 .news__discount {
-    display: inline-block;
+    height: 394px;
+    flex: 1;
     margin-right: 25px;
 }
 
@@ -260,32 +274,34 @@ a {
     margin: 0;
 }
 
+.news__camera-bg {
+    background-image: url(./images/camera.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news__wedding-bg {
+    background-image: url(./images/wedding.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .news__title {
     font-style: normal;
     font-weight: 800;
     font-size: 36px;
     margin-bottom: 51px;
+    margin-top: 0;
 }
 
 .discount {
-    width: 557px;
-    height: 394px;
-    position: relative;
-}
-
-.discount__bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    padding: 26px 30px;
 }
 
 .discount__description {
-    position: absolute;
-    bottom: 26px;
-    left: 31px;
+    margin-top: auto;
 }
 
 .discount__month {
@@ -315,23 +331,22 @@ a {
 }
 
 .paginator {
-    width: 375px;
-    margin: auto;
-    font-size: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .paginator__display {
-    display: inline-block;
     font-size: 16px;
     margin-right: 25px;
 }
 
 .paginator__list {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .paginator__number {
-    display: inline-block;
     font-size: 16px;
     margin-right: 24px;
     font-weight: 700;
@@ -357,36 +372,28 @@ a {
 }
 
 .about {
-    width: 1139px;
-    height: 552px;
-    margin-top: 124px;
-    display: block;
-    border-color: none;
-    position: relative;
+    border-color: transparent;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 53px;
 }
 
 
-.about__photo:before {
-    content: "";
+.about__photo {
     width: 490px;
     height: 505px;
-    background: url("./images/cameraman.png") center center / cover no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .about__paper {
+    flex: 1;
+    max-width: 785px;
+    min-height: 455px;
     box-sizing: border-box;
     background: #FFFFFF;
-    width: 785px;
-    height: 455px;
     border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding-top: 70px;
-    padding-left: 81px;
+    padding: 70px 81px;
+    margin-left: -132px;
+    margin-top: 150px;
 }
 
 .about__header {
@@ -394,7 +401,10 @@ a {
     color: #000000;
     font-weight: 800;
     font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 0;
     margin-bottom: 37px;
+
 }
 
 .about__fish {
@@ -405,22 +415,24 @@ a {
 }
 
 .footer {
-    margin-bottom: 57px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.footer__column {
+    display: flex;
+    align-items: flex-end;
 }
 
 .footer__logo {
-    display: inline-block;
     margin-right: 130px;
 }
 
-.footer__navigation {
-    display: inline-block;
-    margin-right: 111px;
-}
+.footer__navigation {}
+
 
 .footer__item {
-    display: inline-block;
-    margin-right: 16px;
     font-size: 14px;
 }
 
@@ -428,33 +440,41 @@ a {
     text-decoration: none;
 }
 
-.social {
-    display: inline-block;
-    font-size: 0;
+.footer__social {
     margin-right: 74px;
 }
 
-.social__el {
-    display: inline-block;
-    padding-right: 10px;
+.social {}
+
+.social__list {
+    display: flex;
+    margin: 0;
 }
 
-.footer-contact {
-    display: inline-block;
-    text-align: end
+.social__el {
+    margin-right: 10px;
 }
+
+.social__el:last-child {
+    margin: 0;
+}
+
+.footer-contact {}
 
 .footer-contact__call {
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
     margin-bottom: 6px;
+    color: #9A9A9A;
+    text-align: end;
 }
 
 .footer-contact__phone {
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
+    text-decoration: none;
 }
 
 .footer-border-line {
