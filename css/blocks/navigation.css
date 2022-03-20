@@ -1,0 +1,22 @@
+.navigation {
+    padding-bottom: 10px;
+}
+
+.navigation__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation__item {
+    font-size: 14px;
+    margin-right: 54px;
+}
+
+.navigation__link {
+    text-decoration: none;
+}
+
+.navigation__link--active {
+    color: #FF3D00
+}

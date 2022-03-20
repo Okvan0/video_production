@@ -1,0 +1,35 @@
+.discount {
+    display: flex;
+    flex-direction: column;
+    padding: 26px 30px;
+}
+
+.discount__description {
+    margin-top: auto;
+}
+
+.discount__month {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 94px;
+    height: 21px;
+    margin-bottom: 13px;
+}
+
+.discount__amount {
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.discount__new-year {
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}

@@ -1,0 +1,57 @@
+@import url(./social.css);
+@import url(./logo.css);
+@import url(./navigation.css);
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.footer__column {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer__logo {
+    margin-right: 130px;
+}
+
+.footer__navigation {}
+
+
+.footer__item {
+    font-size: 14px;
+}
+
+.footer__item a {
+    text-decoration: none;
+}
+
+.footer__social {
+    margin-right: 74px;
+}
+
+.footer-contact {}
+
+.footer-contact__call {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    margin-bottom: 6px;
+    color: #9A9A9A;
+    text-align: end;
+}
+
+.footer-contact__phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.footer-border-line {
+    height: 1px;
+    background-color: #2E3032;
+    margin-bottom: 40px;
+}

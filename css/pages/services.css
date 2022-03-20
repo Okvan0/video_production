@@ -1,0 +1,144 @@
+@import url(./../fonts.css);
+@import url(./../normalize.css);
+@import url(./../shared.css);
+@import url(./../blocks/header.css);
+@import url(./../blocks/button.css);
+@import url(./../blocks/paginator.css);
+@import url(./../blocks/footer.css);
+.hero {
+    color: #ffffff;
+    background-image: url(./../../images/top-line.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 27px;
+}
+
+.header{
+    margin-bottom: 100px;
+}
+
+.hero__title {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    margin: 0;
+    margin-bottom: 84px;
+}
+
+.breadcrumb__list{
+    display: flex;
+}
+
+.breadcrumb__item{
+    font-weight: 400;
+    font-size: 14px;
+    color: #9A9A9A;
+    margin-right: 5px;
+}
+
+.breadcrumb__link.active{
+    font-weight: 800;;
+}
+
+.services-block{
+    padding-top: 87px;
+    padding-bottom: 63px;
+}
+
+.services__list{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 65px;
+}
+
+.services__item{
+    margin-bottom: 49px;
+}
+.services__item:last-child{
+    margin:0;
+}
+
+.service{
+    display: flex;
+    justify-content: space-between;
+}
+.services__pic{
+}
+.services__paper{
+    box-sizing: border-box;
+    max-width: 650px;
+    padding: 16px;
+}
+
+.services__title{
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 28px;
+    color: #000000;
+}
+
+.services__text{
+    margin: 0;
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.paginator__number.active{
+    color: #ffffff;
+}
+
+.partners-block{
+    background-color: #F4F5F5;
+    padding-top: 88px;
+    padding-bottom: 110px;
+}
+
+.partners__header{
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 73px;
+}
+
+.partners__pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    row-gap: 64px;
+}
+.partners__pic{
+    width: calc(100%/4);
+    display: inline;
+    text-align: center;
+}
+
+.partners__pic:nth-child(4n){
+    text-align: right;
+}
+
+.partners__pic:nth-child(4n + 1){
+    text-align: left;
+}
+.footer-block{
+    background-color: #000000;
+    padding-top: 44px;
+    padding-bottom: 42px;
+}
+
+.footer{
+    padding: 0;
+}
+
+.navigation__item{
+    color: #ffffff;
+}
+
+.footer-contact__phone{
+    color: #ffffff;
+}

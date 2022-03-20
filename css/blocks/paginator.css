@@ -1,0 +1,40 @@
+.paginator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginator__display {
+    font-size: 16px;
+    margin-right: 25px;
+}
+
+.paginator__list {
+    display: flex;
+    align-items: center;
+}
+
+.paginator__number {
+    font-size: 16px;
+    margin-right: 24px;
+    font-weight: 700;
+}
+
+.paginator__number a {
+    text-decoration: none;
+}
+
+.paginator__number.active {
+    border-radius: 32px;
+    width: 32px;
+    height: 32px;
+    padding: 5px 11px;
+    box-sizing: border-box;
+    background-color: #FF5500;
+    margin-right: 13px;
+}
+
+
+.paginator__number:last-child {
+    margin: 0;
+}

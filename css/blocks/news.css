@@ -1,0 +1,42 @@
+@import url(./discount.css);
+@import url(./paginator.css);
+
+.news {
+    margin-top: 0;
+    margin-bottom: 124px;
+}
+
+.news__list {
+    display: flex;
+    margin-bottom: 53px;
+}
+
+.news__discount {
+    height: 394px;
+    flex: 1;
+    margin-right: 25px;
+}
+
+.news__discount:last-child {
+    margin: 0;
+}
+
+.news__camera-bg {
+    background-image: url(./../../images/camera.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news__wedding-bg {
+    background-image: url(./../../images/wedding.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 51px;
+    margin-top: 0;
+}

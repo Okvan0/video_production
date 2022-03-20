@@ -1,0 +1,59 @@
+@import url(./button.css);
+
+.adv {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 36px 34px 52px 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.adv__header {}
+
+.adv__pic {
+    width: 84px;
+    height: 80px;
+    margin-bottom: 29px;
+}
+
+.adv__header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 17px;
+    margin-top: 0;
+}
+
+.adv__info {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.adv__team {
+    text-align: left;
+    margin-right: 70px;
+}
+
+.adv__terms {
+    text-align: left;
+}
+
+.adv__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    width: 306px;
+    margin-bottom: 29px;
+}
+
+.adv__button {
+    margin-top: auto;
+}

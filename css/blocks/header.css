@@ -1,0 +1,12 @@
+@import url(./logo.css);
+@import url(./navigation.css);
+@import url(./contacts.css);
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 21px;
+    margin-bottom: 160px;
+}
+
