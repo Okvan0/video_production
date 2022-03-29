@@ -5,7 +5,6 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 60px;
 }
 
 .footer__column {
@@ -54,4 +53,18 @@
     height: 1px;
     background-color: #2E3032;
     margin-bottom: 40px;
+}
+
+.footer-block {
+    background-color: #000000;
+    padding-top: 44px;
+    padding-bottom: 42px;
+}
+
+.navigation__item {
+    color: #ffffff;
+}
+
+.footer-contact__phone {
+    color: #ffffff;
 }

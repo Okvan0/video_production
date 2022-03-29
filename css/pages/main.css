@@ -1,0 +1,58 @@
+@import url(./../fonts.css);
+@import url(./../normalize.css);
+@import url(./../shared.css);
+@import url(./../blocks/about.css);
+@import url(./../blocks/adv-block.css);
+@import url(./../blocks/footer.css);
+@import url(./../blocks/header.css);
+@import url(./../blocks/news.css);
+
+body {
+    color: #FFFFFF;
+    background-color: #17191C;
+}
+
+.wrapper {
+    background-image: url(./../../images/hero.png), url(./../../images/bottom-pic.png);
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+}
+
+.main-title {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 235px;
+}
+
+.main-title__header {
+    font-size: 72px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.main-title__subheader {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 44px;
+}
+
+.main-title__button {
+    margin: auto;
+}
+
+.footer{
+    padding-bottom: 60px;
+}
+
+/* .contatcs__tooltip:hover{
+    position: absolute;
+    display: none;
+} */

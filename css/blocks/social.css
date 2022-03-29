@@ -12,3 +12,43 @@
 .social__el:last-child {
     margin: 0;
 }
+
+.telegram--icon {
+    width: 36px;
+    height: 36px;
+    background: url('./../../images/social_sprites.png') -122px -66px;
+}
+
+.telegram--icon:hover {
+    background: url('./../../images/social_sprites.png') -122px -10px;
+}
+
+.vk--icon{
+    width: 36px; height: 36px;
+    background: url('./../../images/social_sprites.png') -66px -122px;
+}
+
+.vk--icon:hover{
+    width: 36px; height: 36px;
+    background: url('./../../images/social_sprites.png') -10px -122px;
+}
+
+.facebook--icon{
+    width: 36px; height: 36px;
+    background: url('./../../images/social_sprites.png') -10px -10px;
+}
+
+.facebook--icon:hover{
+    width: 36px; height: 36px;
+    background: url('./../../images/social_sprites.png') -66px -10px;
+}
+
+.inst--icon{
+    width: 36px; height: 36px;
+    background: url('./../../images/social_sprites.png') -66px -66px;
+}
+
+.inst--icon:hover{
+    width: 36px; height: 36px;
+    background: url('./../../images/social_sprites.png') -10px -66px;
+}

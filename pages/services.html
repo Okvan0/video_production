@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./../css/pages/services.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="wrapper">
         <div class="hero">
@@ -20,32 +22,32 @@
                     <nav class="header__navigation navigation">
                         <ul class="navigation__list">
                             <li class="navigation__item">
-                                <a href="/index.html" class="navigation__link navigation__link">Главная</a>
+                                <a href="./../main.html" class="navigation__link navigation__link">Главная</a>
                             </li>
                             <li class="navigation__item">
-                                <a href="#" class="navigation__link--active">Услуги</a>
+                                <a href="./services.html" class="navigation__link--active">Услуги</a>
                             </li>
                             <li class="navigation__item">
-                                <a href="#" class="navigation__link">Отзывы</a>
+                                <a href="./review.html" class="navigation__link">Отзывы</a>
                             </li>
                         </ul>
                     </nav>
                     <address class="header__contacts contacts">
                         <a href="tel:88007003030" class="contacts__phone">8 800 700 30 30</a>
                         <div class="contacts__workdays">
-                            График работы
-                        </div>
-                        <!-- <div class="contatcs__tooltip">
-                            <div class="contacts__days">пн-вс: 09:00 - 20:00</div>
-                            <div class="contacts__lunch">Обед: 14:00 - 14:30</div>
-                        </div> -->
+                            <span>График работы</span>
+                            <div class="contatcs__tooltip">
+                                <div class="contacts__days">пн-вс: 09:00 - 20:00</div>
+                                <div class="contacts__lunch">Обед: 14:00 - 14:30</div>
+                            </div>
+                        </div>  
                     </address>
                 </header>
                 <h1 class="hero__title">Услуги</h1>
                 <div class="breadcrumb">
                     <ul class="breadcrumb__list">
                         <li class="breadcrumb__item"><a href="/" class="breadcrumb__link">Главная</a></li>
-                        <li class="breadcrumb__item">/</li>
+                        <li class="breadcrumb__item"></li>
                         <li class="breadcrumb__item"><a class="breadcrumb__link active" href="#">Услуги</a></li>
                     </ul>
                 </div>
@@ -59,7 +61,11 @@
                             <img class="services__pic" src="./../images/girls.png" alt="">
                             <div class="services__paper">
                                 <h2 class="services__title">Съёмки клипа</h2>
-                                <p class="services__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.</p>
+                                <p class="services__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском
+                                    языке, а начинающему оратору отточить навык публичных выступлений в домашних
+                                    условиях. При создании генератора мы использовали небезизвестный универсальный код
+                                    речей.</p>
                                 <a class="services__button btn btn-border" href="#">Подробнее</a>
                             </div>
                         </li>
@@ -67,7 +73,11 @@
                             <img class="services__pic" src="./../images/engineer.png" alt="">
                             <div class="services__paper">
                                 <h2 class="services__title">Съемка мероприятий</h2>
-                                <p class="services__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.</p>
+                                <p class="services__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском
+                                    языке, а начинающему оратору отточить навык публичных выступлений в домашних
+                                    условиях. При создании генератора мы использовали небезизвестный универсальный код
+                                    речей.</p>
                                 <a class="services__button btn btn-white" href="#">Подробнее</a>
                             </div>
                         </li>
@@ -118,13 +128,13 @@
                         <nav class="footer__navigation navigation">
                             <ul class="navigation__list">
                                 <li class="navigation__item">
-                                    <a href="/" class="navigation__link">Главная</a>
+                                    <a href="./../main.html" class="navigation__link">Главная</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="#" class="navigation__link navigation__link--active">Услуги</a>
+                                    <a href="./services.html" class="navigation__link navigation__link--active">Услуги</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="#" class="navigation__link">Отзывы</a>
+                                    <a href="./review.html" class="navigation__link">Отзывы</a>
                                 </li>
                             </ul>
                         </nav>
@@ -132,13 +142,15 @@
                     <div class="footer__column">
                         <nav class="footer__social social">
                             <ul class="social__list">
-                                <li class="social__el"><a href=""><img src="./../images/telegram.png" alt=""
-                                            class="social__icon"></a></li>
-                                <li class="social__el"><a href=""><img src="./../images/vk.png" alt="" class="social__icon"></a>
+                                <li class="social__el"><a href="">
+                                        <div class="social__icon telegram--icon"></div>
+                                    </a></li>
+                                <li class="social__el"><a href="">
+                                    <div class="social__icon vk--icon"></div></a>
                                 </li>
-                                <li class="social__el"><a href=""><img src="./../images/f.png" alt="" class="social__icon"></a>
+                                <li class="social__el"><a href="">  <div class="social__icon facebook--icon"></div></a>
                                 </li>
-                                <li class="social__el"><a href=""><img src="./../images/in.png" alt="" class="social__icon"></a>
+                                <li class="social__el">  <div class="social__icon inst--icon"></div></a>
                                 </li>
                             </ul>
                         </nav>
@@ -152,4 +164,5 @@
         </div>
     </div>
 </body>
+
 </html>
