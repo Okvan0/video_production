@@ -13,7 +13,7 @@
 .reviews__item {
     box-sizing: border-box;
     margin-bottom: 17px;
-    padding-left: 10px;
+    padding-left: 28px;
 }
 
 .reviews__item:last-child {
