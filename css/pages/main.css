@@ -10,6 +10,7 @@
 body {
     color: #FFFFFF;
     background-color: #17191C;
+    font-size: 48px;
 }
 
 .wrapper {
@@ -27,21 +28,21 @@ body {
 }
 
 .main-title__header {
-    font-size: 72px;
+    font-size: 70px;
     text-align: center;
     font-weight: 800;
     margin-top: 0;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     text-transform: uppercase;
 }
 
 .main-title__subheader {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 44px;
+    margin-bottom: 40px;
 }
 
 .main-title__button {
@@ -51,8 +52,3 @@ body {
 .footer{
     padding-bottom: 60px;
 }
-
-/* .contatcs__tooltip:hover{
-    position: absolute;
-    display: none;
-} */

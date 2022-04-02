@@ -1,0 +1,21 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reviews__list {
+    column-count: 2;
+    column-gap: 27px;
+    margin-bottom: 71px;
+}
+
+.reviews__item {
+    box-sizing: border-box;
+    margin-bottom: 17px;
+    padding-left: 10px;
+}
+
+.reviews__item:last-child {
+    margin: 0;
+}

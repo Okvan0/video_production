@@ -1,7 +1,7 @@
 .discount {
     display: flex;
     flex-direction: column;
-    padding: 26px 30px;
+    padding: 18px 30px;
 }
 
 .discount__description {
@@ -14,7 +14,7 @@
     font-size: 14px;
     color: #FFFFFF;
     width: 94px;
-    height: 21px;
+    height: 10px;
     margin-bottom: 13px;
 }
 

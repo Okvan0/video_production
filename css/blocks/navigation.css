@@ -1,5 +1,5 @@
 .navigation {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .navigation__list {
@@ -10,7 +10,7 @@
 
 .navigation__item {
     font-size: 14px;
-    margin-right: 54px;
+    margin-right: 55px;
 }
 
 .navigation__link {

@@ -1,0 +1,39 @@
+.form-section{
+    background-color: #F4F5F5;
+    padding: 62px 0 96px;
+    color: #202020;
+}
+
+.form__list{
+    display: flex;
+    column-gap: 28px;
+    margin-bottom: 26px;
+}
+
+.form__answers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 10px;
+    max-width: 710px;
+    margin-left: auto;
+}
+
+.form__input{
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    outline: 0;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.form__input:focus{
+    border: 1px solid rgb(197, 196, 196);
+}
+
+.form__input--typing{
+    height: 235px;
+    width: -webkit-fill-available;
+    resize: none;
+}

@@ -16,13 +16,13 @@
 .about__paper {
     flex: 1;
     max-width: 785px;
-    min-height: 455px;
+    min-height: 450px;
     box-sizing: border-box;
     background: #FFFFFF;
     border-radius: 5px;
-    padding: 70px 81px;
+    padding: 66px 85px;
     margin-left: -132px;
-    margin-top: 150px;
+    margin-top: 101px;
 }
 
 .about__header {
@@ -38,7 +38,7 @@
 
 .about__fish {
     color: #000000;
-    margin-bottom: 43px;
+    margin-bottom: 60px;
     width: 502px;
     font-size: 16px;
 }

@@ -10,7 +10,7 @@
 }
 
 .adv-block__adv {
-    width: calc(100%/3 - (27px*2)/3);
+    width: calc(100%/3 - (26px*2)/3);
 }
 
 .adv-block__adv:last-child {

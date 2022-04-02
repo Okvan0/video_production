@@ -1,0 +1,11 @@
+.answer__input{
+    appearance: none;
+    }
+    
+    .answer__input:checked ~ .answer__tag{
+        background-color: #F2D4C9;
+    }
+    
+    .answer__tag{
+        cursor: pointer;
+    }

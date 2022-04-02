@@ -14,9 +14,12 @@
 
 .footer__logo {
     margin-right: 130px;
+    padding-top: 22px;
+    padding-left: 10px;
 }
 
-.footer__navigation {}
+.footer__navigation {
+}
 
 
 .footer__item {
@@ -28,18 +31,22 @@
 }
 
 .footer__social {
-    margin-right: 74px;
+    margin-right: 65px;
+    padding-bottom: 16px;
 }
 
-.footer-contact {}
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+}
 
 .footer-contact__call {
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
-    margin-bottom: 6px;
     color: #9A9A9A;
     text-align: end;
+    margin-bottom: 5px;
 }
 
 .footer-contact__phone {
@@ -47,17 +54,18 @@
     font-weight: 400;
     font-size: 26px;
     text-decoration: none;
+    margin-bottom: 5px;
 }
 
 .footer-border-line {
     height: 1px;
     background-color: #2E3032;
-    margin-bottom: 40px;
+    margin-bottom: 16px;
 }
 
 .footer-block {
     background-color: #000000;
-    padding-top: 44px;
+    padding-top: 25px;
     padding-bottom: 42px;
 }
 
@@ -67,4 +75,44 @@
 
 .footer-contact__phone {
     color: #ffffff;
+}
+
+.telegram--icon {
+    width: 36px;
+    height: 36px;
+    background: url('./../../images/social_sprites.png') -122px -66px;
+}
+
+.telegram--icon:hover {
+    background: url('./../../images/social_sprites.png') -122px -10px;
+}
+
+.vk--icon{
+    width: 36px; height: 36px;
+    background: url('./../../images/social_sprites.png') -66px -122px;
+}
+
+.vk--icon:hover{
+    width: 36px; height: 36px;
+    background: url('./../../images/social_sprites.png') -10px -122px;
+}
+
+.facebook--icon{
+    width: 36px; height: 36px;
+    background: url('./../../images/social_sprites.png') -10px -10px;
+}
+
+.facebook--icon:hover{
+    width: 36px; height: 36px;
+    background: url('./../../images/social_sprites.png') -66px -10px;
+}
+
+.inst--icon{
+    width: 36px; height: 36px;
+    background: url('./../../images/social_sprites.png') -66px -66px;
+}
+
+.inst--icon:hover{
+    width: 36px; height: 36px;
+    background: url('./../../images/social_sprites.png') -10px -66px;
 }

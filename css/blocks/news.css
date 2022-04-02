@@ -3,18 +3,18 @@
 
 .news {
     margin-top: 0;
-    margin-bottom: 124px;
+    margin-bottom: 98px;
 }
 
 .news__list {
     display: flex;
-    margin-bottom: 53px;
+    margin-bottom: 10px;
 }
 
 .news__discount {
-    height: 394px;
+    height: 350px;
     flex: 1;
-    margin-right: 25px;
+    margin-right: 32px;
 }
 
 .news__discount:last-child {
@@ -36,7 +36,8 @@
 .news__title {
     font-style: normal;
     font-weight: 800;
-    font-size: 36px;
+    font-size: 38px;
     margin-bottom: 51px;
     margin-top: 0;
+    text-transform: uppercase;
 }

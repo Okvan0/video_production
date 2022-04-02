@@ -1,0 +1,16 @@
+.breadcrumb__list {
+    display: flex;
+    padding-right: -5px;
+}
+
+.breadcrumb__item {
+    font-weight: 400;
+    font-size: 14px;
+    color: #9A9A9A;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+
+.breadcrumb__link.active {
+    font-weight: 800;
+}

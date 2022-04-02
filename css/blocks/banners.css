@@ -1,0 +1,20 @@
+.banner {
+    background: url(./../../images/square.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.banner__title{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    font-size: 48px;
+    max-width: 50%;
+    padding-top: 117px;
+    text-align: left;
+}
+
+.banner__nunber{
+    color: #FF5400
+}
